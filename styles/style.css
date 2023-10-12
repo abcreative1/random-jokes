@@ -12,6 +12,9 @@
     min-width: 200px;
     
 }
+#title{
+    text-align: center;
+}
 
 button{
     width: 100%;
@@ -23,6 +26,16 @@ button{
 button:hover{
     background-color: rgb(128, 157, 167);
     color: white;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#copy{
+    width: 100px;
+    margin-left: 10px;
 }
 
 #jokes{

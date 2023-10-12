@@ -12,12 +12,17 @@
 <body>
     <div id="container">
 
-        <h1>Random Jokes Generator</h1>
+        <h1 id="title">Random Jokes Generator</h1>
         <span id="category">Category: </span>
         <p id="jokes">Jokes will display here</p>
-        <button onclick="getJoke()">Load</button>
+
+        <div class="buttons-container">
+            <button onclick="getJoke()">Load</button>
+            <button onclick="copyJoke()" id="copy">Copy</button>
+        </div>
 
     </div>
+
 </body>
 
 </html>
